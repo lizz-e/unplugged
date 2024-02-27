@@ -90,10 +90,10 @@ textarea {
    /*------------ Base Header - Footer Styles ------------*/
    /* Header */
 
-   .content-wrapper{
+   /* .content-wrapper{
       border:3px dotted red ;
       width: 90%;
-   }
+   } */
 
    header{
     display: flex;
