@@ -87,30 +87,39 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /*------------ Base Header - Footer Styles ------------*/
-   /* Header */
-
    .content-wrapper{
-      /* border:3px dotted red ; */
-      width: 90%;
-   }
+    width: 90%;
+    margin: 50px 0;
+    border:3px dotted red ;
+ }
 
+   /*------------ Base Header - Footer Styles ------------*/
+   
+   /* Header */
    header{
     display: flex;
     justify-content: center;
+    margin: 15px 0;
    }
 
    header .content-wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: wrap;
+    flex-flow: row wrap;
+   }
+    
+   header figure{
+    margin: 0;
    }
 
   .header-divider{
     width: 90%;
+    height: 1px;
+    margin: 10px 0 20px 0;
     border-bottom: 1px solid black;
   }
+
 
   /* Nav */
   header nav ul{
@@ -131,32 +140,48 @@ textarea {
     text-decoration: none; /* undeline */
   }
 
-   /* Footer */
-   footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-   }
+  nav ul li {
+    margin: 0;
+  }
 
-   footer .content-wrapper{
-    width: 55%;
-    /* margin: 50px 0; */
-   }
+  /* Footer */
+  footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+  }
+  footer .content-wrapper{
+   width: 55%;
+  }
 
-   .social-icons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   }
+  footer h4{
+   padding: 20px 0;
+  }
 
-   .social-icons p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   }
+  footer p {
+   margin: 0;
+  }
 
+  footer .contact {
+    margin-bottom: 50px;
+  }
 
+  .social-icons{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+  }
+  .social-icons p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .copyright{
+    margin: 20px 0;
+  }
+  
 
   /*------------ Mobile Styles - Homepage ------------*/
   .hero-area{
@@ -164,11 +189,34 @@ textarea {
     justify-content: center;
   }
 
+  /* aside */
   aside{
     display: flex;
     justify-content: center;
   }
 
+  aside h3{
+    margin: 20px 0;
+  }
+
+  .form-description p{
+    margin-bottom: 30px;
+  }
+
+  .form input {
+    width: 100%;
+  }
+
+  aside .email{
+    padding: 1em;
+    margin-bottom: 20px;
+  }
+  aside .download-btn{
+    margin-top: 20px;
+    padding: 20px 0;  
+  }
+
+  /* features */
   .features{
     display: flex;
     justify-content: center;
@@ -178,19 +226,41 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-flow: row wrap;
+    margin: 30px 0;
+  }
+
+  .features h2 {
+    margin: 0;
+    margin-bottom: 60px;
   }
 
   .features article{
     width: 60%;
+    margin: 30px 0;
   }
 
+  .features p {
+    margin: 0;
+  }
+
+  .features-item-description{
+    margin-top: 40px;
+  }
+
+  /* reviews */
   .reviews{
     display: flex;
     justify-content: center;
   }
 
+  .reviews h4{
+    margin-bottom: 40px;
+  }
+  
   .reviews h3{
     width: 50%;
+    margin: 20px 0;
   }
 
   /*------------ Mobile Styles - About page ------------*/
@@ -198,6 +268,7 @@ textarea {
     display: flex;
     justify-content: center;
   }
+
 
   .map{
     display: flex;
@@ -219,8 +290,21 @@ textarea {
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap; /* helps contain the content in the wrapper*/
+    margin: 50px 0 0 0;
+
   }
 
+  .faq h4{
+    width: 90%;
+  }
+
+  .faq h2{
+    margin-bottom: 40px;
+  }
+
+  .faq-content {
+    margin-bottom: 50px;
+  }
 
 /* ==========================================================================
    Helper classes
