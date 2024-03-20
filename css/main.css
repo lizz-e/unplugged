@@ -153,6 +153,7 @@ textarea {
    }
 
    header figure {
+    margin: 0;
     width: 60%;
    }
 
@@ -162,10 +163,6 @@ textarea {
     margin: 10px 0 20px 0;
     background-color: #3a3a3a; /* makes the line more visible*/
   }
-  
-   header figure{
-    margin: 0;
-   }
 
   /* Nav */
   header nav {
@@ -209,7 +206,7 @@ textarea {
   }
 
   footer h4{
-   padding: 20px 0;
+   margin: 20px 0;
   }
 
   footer p {
@@ -248,6 +245,7 @@ textarea {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 500px;
 
   }
 
@@ -271,6 +269,11 @@ textarea {
   .features{
     display: flex;
     justify-content: center;
+    background-color: #333;
+    background-image: url(../img/unplugged-retreat-features.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .features .feature-items{
