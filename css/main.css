@@ -109,6 +109,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-size: 1.125em;
     font-weight: 500;
+    margin: 20px 0;
   }
 
   p {
@@ -504,7 +505,7 @@ textarea {
 
   h3 {
     font-size: 1.5em;
-    line-height: 3em;
+    line-height: 1.25;
   }
 
   .content-wrapper {
@@ -520,6 +521,10 @@ textarea {
   header .content-wrapper{
     width: 100%;
     justify-content: space-between;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   .header-divider {
@@ -574,9 +579,15 @@ textarea {
 
   /* ---------------- Homepage ---------------- */
   /* hero section */
+  
+  .hero-area{
+    min-height: 600px;
+  }
+
   h1 {
     font-size: 3em;
-    line-height: 3em;
+    line-height: 1;
+    margin: 0;
   }
 
   /* Aside */
@@ -585,6 +596,10 @@ textarea {
     justify-content: space-around;
     align-content: stretch;
     margin: 50px 0;
+  }
+
+  aside .form {
+    margin-top: 0;
   }
 
   .form-description, .form {
