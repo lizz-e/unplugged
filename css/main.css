@@ -120,6 +120,14 @@ textarea {
     font-style: normal;
   }
 
+  img {
+    width: 100%;
+  }
+
+  figure {
+    margin: 0;
+  }
+
    /*---------------------------*/
    .content-wrapper{
     width: 90%; 
@@ -142,6 +150,10 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
     margin: 0;
+   }
+
+   header figure {
+    width: 60%;
    }
 
   .header-divider{
