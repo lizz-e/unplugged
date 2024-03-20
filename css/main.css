@@ -114,7 +114,7 @@ textarea {
 
   p {
     font-size:  0.875em;
-    line-height: 1.125em;
+    line-height: 1.285;
   }
 
   address {
@@ -641,8 +641,17 @@ textarea {
     justify-content: space-between;
   }
 
-  .reviews article div {
+  .reviews article figure, .reviews article div {
     width: 49%;
+  }
+
+  .reviews h2 {
+    width: 85%;
+  }
+
+  .reviews h3{
+    width: 80%;
+    margin: 0;
   }
 
   /* ---------------- About page ---------------- */
