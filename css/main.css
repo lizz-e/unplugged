@@ -669,6 +669,7 @@ textarea {
   }
 
   /* ---------------- About page ---------------- */
+  /* Mission */
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -680,6 +681,12 @@ textarea {
     width: 45%;
   }
   
+  /* Map */
+  .map figure {
+    padding-bottom: 58%;
+  }
+
+  /* Contact */
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -780,6 +787,10 @@ textarea {
  .mission h2 {
   font-size: 3em;
  }
+
+ .map figure {
+  padding-bottom: 45%;
+}
 
  .contact-content h4{
   font-size: 1.875em;
