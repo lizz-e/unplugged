@@ -222,14 +222,22 @@ textarea {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   size: 1.313em;
   }
 
   .social-icons p {
    display: flex;
    justify-content: center;
    align-items: center;
-   color: #527158;
+   /* how to back the circle background */
+   background-color: #527158;
+   border-radius: 50%;
+   border: 1px solid #527158;
+   padding: 10px;
+  }
+
+  .social-icons i{
+    color: #e2e3ed;
+    font-size: 1.313em;
   }
 
   .copyright{
