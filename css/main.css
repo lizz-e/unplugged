@@ -97,12 +97,14 @@ textarea {
     font-family: 'Open Sans', sans-serif;
     color: #e2e3ed;
     font-size: 1em;
+    background-color: #202322;
   }
 
   h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 1.875em;
     font-weight: 500;
+    margin: 0;
   }
 
   h3, h4 {
@@ -293,7 +295,6 @@ textarea {
   }
 
   .features h2 {
-    margin: 0;
     margin-bottom: 60px;
   }
 
@@ -390,7 +391,7 @@ textarea {
 
   .faq h2{
     margin-bottom: 40px;
-    line-height: 1em;
+    line-height: 1;
   }
 
   .faq h4{
@@ -579,10 +580,16 @@ textarea {
 
   footer h4 {
     font-size: 1.5em;
+    margin-bottom: 40px;
   }
 
   footer p {
     line-height: 1.125em;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer.copyright {
@@ -647,6 +654,10 @@ textarea {
 
   /* Features */
 
+  .features h2 {
+    margin-bottom: 20px;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -655,7 +666,7 @@ textarea {
   }
 
   .features .features-item-description{
-    width: 50%;
+    width: 62%;
   }
 
   /* Reviews */
@@ -692,7 +703,7 @@ textarea {
   
   /* Map */
   .map figure {
-    padding-bottom: 58%;
+    padding-bottom: 45%;
   }
 
   /* Contact */
