@@ -231,8 +231,8 @@ textarea {
    /* how to back the circle background */
    background-color: #527158;
    border-radius: 50%;
-   border: 1px solid #527158;
-   padding: 10px;
+   width: 40px;
+   height: 40px;
   }
 
   .social-icons i{
