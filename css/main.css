@@ -596,17 +596,6 @@ textarea {
     width: 100%;
   }
 
-
-  /* 
-  Code along solution:
-
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  */
-
   /* ---------------- Homepage ---------------- */
   /* hero section */
   
@@ -636,21 +625,6 @@ textarea {
     margin: 0;
     width: 40%;
   }
-
-  /*  Video code along solution: 
-
-  aside .content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: 50px 0;
-  }
-
-  aside .content-wrapper .form-description,
-  aside. .content-wrapper .form {
-    margin: 0;
-    width: 40%;
-  } */
 
   /* Features */
 
